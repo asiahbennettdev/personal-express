@@ -1,0 +1,55 @@
+body{
+  background-image: url("bk1.jpg");
+  background-size: cover;
+}
+h3{
+  margin-top: 40px;
+}
+section {
+  border: 2px solid red;
+  height: 600px;
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: 30px;
+  background: pink;
+  margin-top: 60px;
+}
+@font-face {
+  font-family: 'bub';
+  src:url(../fonts/el_font_bubble/bub.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'sneaks';
+  src:url(../fonts/Sneaksfood.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'bubby';
+  src:url(../fonts/bubbles.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+h1 {
+  font-family: bubby;
+  font-size: 50px;
+  color: darkblue;
+  font-size: 70px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+h2{
+  font-family: sneaks;
+}
+img {
+  height:100px;
+}
+li.message span {
+  font-weight: bold;
+}
+/* span{
+  font-family: bub
+} */
